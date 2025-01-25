@@ -1,0 +1,83 @@
+.vc-ai-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--interactive-normal);
+    transition: color 0.2s ease;
+}
+
+.vc-ai-button:hover {
+    color: var(--interactive-hover);
+}
+
+.vc-ai-modal-content {
+    padding: 1em;
+}
+
+.vc-ai-modal-header {
+    place-content: center space-between;
+}
+
+.vc-ai-modal-header h2 {
+    margin: 0;
+}
+
+.vc-ai-chat-button {
+    scale: 1.085;
+}
+
+.vc-ai-icon {
+    color: var(--interactive-normal);
+    transition: color 0.2s ease;
+}
+
+.vc-ai-icon:hover {
+    color: var(--interactive-hover);
+}
+
+.vc-ai-accessory {
+    color: var(--text-muted);
+    margin-top: 0.5em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.vc-ai-accessory svg {
+    margin-right: 0.25em;
+}
+
+.vc-ai-auto-enhance {
+    color: var(--green-360);
+}
+
+.vc-ai-dismiss {
+    all: unset;
+    cursor: pointer;
+    color: var(--text-link);
+}
+
+.vc-ai-dismiss:is(:hover, :focus) {
+    text-decoration: underline;
+}
+
+.vc-ai-result {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: var(--text-normal);
+    background: var(--background-secondary);
+}
+
+.vc-ai-result svg {
+    width: 16px;
+    height: 16px;
+    color: var(--text-muted);
+}
